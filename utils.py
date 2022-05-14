@@ -3,6 +3,9 @@ from class_Candidate import Candidate
 
 
 def load_data(file_name):
+    '''
+    This function to load json file
+    '''
     with open(file_name) as file:
         json.load(file)
     return file
