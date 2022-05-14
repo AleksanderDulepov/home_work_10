@@ -7,3 +7,6 @@ class Candidate:
         self.gender = gender
         self.age = age
         self.skills = skills
+
+    def __repr__(self):
+        return f'This is a Candidate class object {self.name}'
